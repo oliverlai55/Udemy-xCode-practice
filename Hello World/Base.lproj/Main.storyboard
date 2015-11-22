@@ -35,6 +35,9 @@
                                 <rect key="frame" x="266" y="326" width="68" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Press Me!"/>
+                                <connections>
+                                    <action selector="PressMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ov-U2-Y81"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="mKc-Jh-iZr">
                                 <rect key="frame" x="192" y="402" width="217" height="178"/>
@@ -44,6 +47,9 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="hxQ-aa-okJ" id="hpv-sv-9gF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
