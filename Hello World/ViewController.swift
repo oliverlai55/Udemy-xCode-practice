@@ -10,13 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textField: UITextField!
+    
     @IBOutlet weak var label: UILabel!
     
     
     @IBAction func PressMe(sender: AnyObject) {
         print("button tapped");
         
-        label.text = "It worked"
+        label.text = textField.text
     }
     
     
